@@ -3,7 +3,7 @@ function search(){
 	adr = parseFloat(adr);
 	switch (adr){
 		case 42:
-		window.location.assign("batorw.html");
+		window.location.assign("Batorw.html");
 		//BATOR WELCOM
 		break;
 		case 25:
