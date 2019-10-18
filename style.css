@@ -1,0 +1,48 @@
+body{
+             background-color:black
+    	 }
+         h1 {
+            font-family: Courier;
+	        text-align: center;
+	        color: chartreuse;
+			font-size:3em
+         }
+		 h2 {
+			font-family: Courier;
+	        color: chartreuse;
+			font-size:2em
+		}
+         p, td{
+            font-family: Courier;
+	        color: chartreuse;
+         }
+		 #keypad {margin:auto; margin-top:20px;}
+
+#keypad tr td {
+	vertical-align:middle; 
+	text-align:center; 
+	border:1px solid #000000; 
+	font-size:18px; 
+	font-weight:bold; 
+	width:60px; 
+	height:60px; 
+	cursor:pointer; 
+	background-color:#666666; 
+	color:#CCCCCC;}
+#keypad tr td:hover {background-color:#999999; color:#FFFF00;}
+
+.display {
+	width:130px; 
+	margin:10px auto auto auto; 
+	background-color:#000000; 
+	color:#00FF00; 
+	font-size:18px; 
+	border:1px solid #999999;
+}
+#message {
+	text-align:center; 
+	color:#009900; 
+	font-size:14px; 
+	font-weight:bold; 
+	display:none;
+}

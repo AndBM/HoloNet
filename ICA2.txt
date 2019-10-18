@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Agenturet
+		</title>
+		<style>
+    	 body{
+             background-color:black
+    	 }
+         h1 {
+            font-family: Courier;
+	        text-align: center;
+	        color: chartreuse;
+			font-size:3em
+         }
+		 h2 {
+			font-family: Courier;
+	        text-align: center;
+	        color: chartreuse;
+			font-size:2em
+		}
+         p, td{
+            font-family: Courier;
+            text-align: center;
+	        color: chartreuse;
+         }
+		 #keypad {margin:auto; margin-top:20px;}
+
+#keypad tr td {
+	vertical-align:middle; 
+	text-align:center; 
+	border:1px solid #000000; 
+	font-size:18px; 
+	font-weight:bold; 
+	width:60px; 
+	height:60px; 
+	cursor:pointer; 
+	background-color:#666666; 
+	color:#CCCCCC;}
+#keypad tr td:hover {background-color:#999999; color:#FFFF00;}
+
+.display {
+	width:130px; 
+	margin:10px auto auto auto; 
+	background-color:#000000; 
+	color:#00FF00; 
+	font-size:18px; 
+	border:1px solid #999999;
+}
+#message {
+	text-align:center; 
+	color:#009900; 
+	font-size:14px; 
+	font-weight:bold; 
+	display:none;
+}
+		</style>
+		<script type="text/javascript">
+			function adresse() {
+			var adress = prompt("Adresse:");
+			window.location.assign("https://dl.dropboxusercontent.com/u/16275932/HoloNet/"+adress+".html");
+			}
+			function addCode(key){
+	var code = document.forms[0].code;
+	if(code.value.length < 4){
+		code.value = code.value + key;
+	}
+	if(code.value == 2505){
+		//document.getElementById("message").style.display = "block";
+		//setTimeout(submitForm,3000);	
+		window.location.assign("https://dl.dropboxusercontent.com/u/16275932/HoloNet/ICA2.html");
+	}
+}
+
+function submitForm(){
+	document.forms[0].submit();
+}
+
+function emptyCode(){
+	document.forms[0].code.value = "";
+}
+		</script>
+		
+	</head>
+	<body>
+		<table border="1">
+    	    <tr>
+               <td>
+                   <img src="http://images3.wikia.nocookie.net/__cb20080311202150/starwars/images/d/de/Republic_Emblem.svg" height="200em"/>
+               </td> 
+               <td width="1400em">
+                   <h1>
+				   Agenturet
+				   </h1>
+               </td>
+    	    </tr>
+            
+            <tr>
+                <td height="500em">
+                    <p>
+                        <input type=button onclick="adresse()" value="Find">
+                    </p>
+                </td>
+                <td>
+					<h2> 
+						Velkommen til Agenturet
+					</h2>
+				</td>
+            </tr>
+		</table>
+		
+	</body>
+</html>

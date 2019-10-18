@@ -1,0 +1,66 @@
+TO DO:
+Sørg for at det passer til touch-skærm i størrelsen
+Skabelon til sider
+Input til funktion
+
+
+SIDER:
+Holonet forside
+Ulans forside
+Bators forside
+Bator pornoside
+Bator videnskabsside
+Coruscant senatorside
+ICA side
+
+
+
+
+START
+Kontoret. Holodisk ankommer med instruktioner og første sag.
+Mystisk hærværk i bank. Numre, betyder "Du er død". Kontor, mand tog hjem.
+Lakoon.
+Lejlighed. Døren er blokeret. Skudhul i vinduet. Død mand. Flyttet.
+
+På manden: Kvittering fra depot. Besked: "Femte Hjørne. Kl. 20."
+Intet ID.
+Rig lejlighed. Skjult skab med blaster.
+Slettede sikkerhedsoptagelser.
+
+Depot: Bøvet vagt. Listen-tjek, evt. glimt af skaldet mand.
+
+BATOR
+Party tilladt at gå omkring med eskort, mens administrator undersøger sagen
+Pludselig vender vagterne sig mod dem, STUN
+Hvis fanget, afhøring omkring Agenturet.
+Ellers undslipper. Møder modstandsmand. Kan hjælpe med agenturet, hvis party hjælper med våben.
+VÅBENMISSION - møder mercenaries, STUN?
+Da kommer tilbage: Stormes af folkemængde.
+Twi'lek dukker op, viser Imperial ID.
+Han hjælper med location, ellers til at finde i havnelogs.
+Til sidst: fælde, skaldet fyr?
+
+Til slut: Ulan angreb? Folkemængde mod 
+
+ULAN
+Angreb.
+Cool bar.
+Mand blærer sig med at vide hvem Agenturets leder er.
+Skal besejres.
+
+CORUSCANT
+Rygte: Grievous leder efter Palpatine. Løs dark jedi.
+I basen: Mercenaries. Højhus.
+Øverst: Twi'lek med mercenary (jedi eller skaldet?)
+Efter besejring: Aktivér sporingsenhed, Grievous ankommer.
+Action flugtscene!
+
+
+
+
+IN
+AA 25
+KA 19
+AS 8	HP 40/10
+NI 7
+ 
